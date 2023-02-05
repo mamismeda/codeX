@@ -64,7 +64,7 @@ const handleSubmit = async (e) => {
   // users chatstripe
   chatContainer.innerHTML += chatStripe(false, data.get("prompt"));
 
-  form.requestFullscreen();
+  form.reset();
 
   // bots chatstripe
 
